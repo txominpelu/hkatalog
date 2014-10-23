@@ -1,6 +1,3 @@
---
--- Basic haqify
---
 module HKatalog where
 
 import System.Environment

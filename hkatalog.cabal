@@ -1,9 +1,9 @@
-Name:                hkatalog
-Version:             0.0.0.0
-License:             BSD3
-License-File:        LICENSE
-Cabal-Version:       >=1.10
-Build-Type:          Simple
+Name:                   hkatalog
+Version:                0.0.0.0
+License:                BSD3
+License-File:           LICENSE
+Cabal-Version:          >=1.10
+Build-Type:             Simple
 
 Library
   Default-Language:     Haskell2010
