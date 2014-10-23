@@ -28,6 +28,28 @@ Should output
 "Haq! me"
 ```
 
+## Tests
+
+Install HSpec
+
+```bash
+$ cabal install --enable-tests
+```
+
+Run tests
+```bash
+$ cabal test
+```
+
+## Tagging a release
+
+Tag your release locally like this
+
+```bash
+$ git tag 0.0
+$ git push --tags
+```
+
 ## TODO
 
 - [ ] Add HLint (code linter)
