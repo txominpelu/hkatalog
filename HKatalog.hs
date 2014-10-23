@@ -1,6 +1,8 @@
 --
 -- Basic haqify
 --
+module HKatalog where
+
 import System.Environment
 
 -- | 'main' runs the main program

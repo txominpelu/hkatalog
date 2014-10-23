@@ -1,11 +1,10 @@
-module Main where
+module HKatalogSpec where
 
 import HKatalog
 import Test.Hspec
 
-main :: IO ()
-main = hspec $
-
-  describe "Validate haqify function" $
+spec :: Spec
+spec = do
+  describe "Validate haqify function" $ do
     it "haqify is supposed to prefix Haq! to things" $
       haqify "me" `shouldBe` "Haq! me"
