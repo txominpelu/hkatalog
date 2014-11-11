@@ -6,7 +6,7 @@ MAINTAINER Inigo Mediavilla <txominpelu@gmail.com>
 
 # Install git
 RUN apt-get update\
- && apt-get install git vim
+ && apt-get install git vim tmux
 
 WORKDIR /home/
 RUN git clone https://github.com/txominpelu/hkatalog.git
